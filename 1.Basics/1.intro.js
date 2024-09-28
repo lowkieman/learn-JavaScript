@@ -8,7 +8,7 @@ function turnOffLights(){
     document.getElementById("dark").style.display="inline-block"
     document.getElementById("light").style.display="none";
 }
-if (time=1000){
+if (time=1000){ //timeing here
     const turnOn=setTimeout(turnOnLights,1000);
 }
 else{
